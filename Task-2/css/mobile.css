@@ -1,0 +1,74 @@
+/* Mobile Navigation */
+.menu-toggle {
+    display: block;
+    margin-left: auto;
+}
+
+.navbar {
+    display: none;
+}
+
+/* Hero Section */
+.hero {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 100%;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+}
+
+.hero-image {
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+    width: 100%;
+    max-width: 100%;
+    margin-top: var(--space-xl);
+}
+
+.hero-cta {
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+/* About Section */
+.about-content {
+    flex-direction: column;
+}
+
+.about-image {
+    margin-top: var(--space-xl);
+    width: 100%;
+}
+
+/* Work Section */
+.projects-grid {
+    grid-template-columns: 1fr;
+}
+
+/* Services Section */
+.services-grid {
+    grid-template-columns: 1fr;
+}
+
+/* Contact Section */
+.contact-content {
+    flex-direction: column;
+}
+
+/* Footer */
+.footer-content {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+}
+
+.footer-links,
+.footer-social {
+    margin-top: var(--space-lg);
+}
